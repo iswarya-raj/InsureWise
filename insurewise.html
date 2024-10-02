@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InsureWise - Your AI Insurance Assistant</title>
+    <link rel="stylesheet" href="insure wise.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>InsureWise</h1>
+        <p>Your AI-Powered Insurance Assistant</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#chatbot">Chatbot</a></li>
+            <li><a href="#form-filling">Form Filling</a></li>
+            <li><a href="#about">About Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="chatbot">
+            <h2>AI Chatbot</h2>
+            <p>Interact with our AI chatbot for instant support on your insurance queries.</p>
+            <iframe width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/2197ccc2-e990-400f-9d2e-1811b5a93d4c"></iframe>
+        </section>
+
+        <section id="form-filling">
+            <h2>Form Filling Automation</h2>
+            <p>Upload your documents and let us auto-fill your forms for you!</p>
+            <input type="file" id="document-upload">
+            <button id="upload-button">Upload</button>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>InsureWise is dedicated to simplifying the insurance process through AI-powered solutions. Our assistant helps users with queries, form-filling, and provides seamless communication.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 InsureWise. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
